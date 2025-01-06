@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer >.inner{
+    background-color:white ;
+    height: 300px;
+    width:300px ;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+    overflow: auto;
+
+
+}
+::-webkit-scrollbar{
+    display: none;
+
+}
+.outer>.inner>h1{
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+.outer>.inner>p{
+    margin-top: 30px;
+    
+}
+.outer>.inner:hover{
+    box-shadow: -2px -2px 2px black;
+    
+
+}
+.outer>.inner>img{
+    
+    height: 30px;
+    width: 20px;
+}
+
