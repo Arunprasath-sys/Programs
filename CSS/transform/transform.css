@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to right,black,yellow,blue);
+}
+.outer>.inner{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+    transition: all 2s ease-in;
+}
+.outer>.inner:hover{
+    /*transform: translatex(200px) scale(1.5) rotate(360deg);*/
+    /*transform: skew(360deg);*/
+    transform: rotate(360deg); 
+
+    
+
+}
