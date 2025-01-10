@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing:border-box ;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right,black,red,blue);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://circleofcricket.com/post_image/post_image_2abdf5e.jpg)
+    transition: all 2s ease-in;
+}
+.outer>.inner{
+    height: 400px;
+    width: 400px;
+    background-color: antiquewhite;
+    background-image: url(https://m.economictimes.com/thumb/msid-98588469,width-1599,height-1064,resizemode-4,imgsize-48422/ahmedabad-indian-batter-virat-kohli-celebrates-after-scoring-a-century-during-t-.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    font-style: italic;
+    align-items: end;
+
+
+ 
+}
+.outer>.inner:hover{
+    transform: translatex(200px) scale(1.5) rotate(360deg);
+    
+}
